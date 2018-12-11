@@ -1,0 +1,18 @@
+Greed is a dice game. Play begins by rolling five dice. Scoring is as follows:
+    -Each 1 is worth 100 points
+    -Each 5 is worth 50 points
+    -Three of a kind is worth 100 times the number showing (ex. three 6's is worth 600 points)
+    -EXCEPT three 1's is worth 1,000 points
+    -Four of a kind is worth double three of a kind
+    -Five of a kind is worth double four of a kind
+    -A run of all five dice (1, 2, 3, 4, 5 or 2, 3, 4, 5, 6) is worth 750 points
+Dice can only be scored when thrown. Three 1's rolled in three seperate throws is worth 300 points, not 1,000 points.
+After each throw, you must score at least one die, or else your accumulated points are forfeited and your turn ends.
+Once you have reached your minimum score threshold, you can choose to collect your points and pass the dice instead of continuing to roll.
+To start the game, each players' threshold is 750 points. After collecting your first points, your threshold is lowered to 250 points.
+When a player collects their points and passes their dice, the following player can choose to steal their dice (if they have collected points already).
+When stealing another player's dice, you start your turn with all the points they collected at the end of their turn, but only as many dice as they passed.
+You must successfully roll and score at least one die to have the option to collect stolen points.
+A player can choose not to steal the previous player's dice and start with 0 points and roll all five dice.
+When a player accumulates enough points to end the game, each other player is given one last turn.
+The highest score after all players have finished their turns is the winner.
